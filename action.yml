@@ -1,0 +1,23 @@
+
+name: AWS ECS Run Task
+description: Updates AWS ECS task definitions
+author: Slava Fomin II
+
+runs:
+  using: node16
+  main: dist/index.js
+
+inputs:
+  name:
+    description: ECS task definition name
+    required: true
+
+  region:
+    description: AWS region
+    required: false
+
+  imageTag:
+    description: New Docker image tag to use
+    required: false
+
+outputs: {}
