@@ -70,6 +70,15 @@ async function main() {
   // EXECUTING //
   //===========//
 
-  await updateTaskDefinition(options);
+  const result = await updateTaskDefinition(options);
+
+
+  //=========//
+  // OUTPUTS //
+  //=========//
+
+  core.setOutput('name', result.name);
+
+  core.setOutput('revision', result.revision);
 
 }

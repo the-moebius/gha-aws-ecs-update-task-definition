@@ -20,4 +20,9 @@ inputs:
     description: New Docker image tag to use
     required: false
 
-outputs: {}
+outputs:
+  name:
+    description: New task definition name
+
+  revision:
+    description: New task definition revision

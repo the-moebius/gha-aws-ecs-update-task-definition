@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@moebius/aws-ecs-update-task-definition": "^1.0.0"
+    "@moebius/aws-ecs-update-task-definition": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.20.42",
